@@ -134,7 +134,7 @@ if(session('regno') == null){
                         <button type="submit" class="btn btn-primary" style="width: 100%; background-color: #198754; border-color: transparent;">Update Credentials</button>
                     </form>
                     <br>
-                    <a href="javascript:void(0);" onclick="history.back();" class="btn btn-danger" style="width: 100%; border-color: transparent;">Cancel</a>
+                    <a href="javascript:void(0);" onclick="history.back();" class="btn btn-secondary" style="width: 100%; border-color: transparent;">Cancel</a>
                 @endforeach
             </div>
         </div>

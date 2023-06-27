@@ -165,7 +165,7 @@ if(session('regno') == null){
                                     {{ $plantita->itemdesc }}
                                 </td>
                                 <td>
-                                    <span style="color: blue">{{ $plantita->price }}</span>
+                                    <span>{{ $plantita->price }}</span>
 
                                 </td>
                                 <td>
@@ -176,7 +176,7 @@ if(session('regno') == null){
                                 </td>
                                 <td>
                                     @if ($plantita->amount >= $plantita->price)
-                                        <span style="color: green">{{ $plantita->amount }}</span>
+                                        <span>{{ $plantita->amount }}</span>
                                     @else
                                         <span style="color: red">{{ $plantita->amount }}</span>
                                     @endif
@@ -201,7 +201,7 @@ if(session('regno') == null){
                                     {{ $plantita->remarks }}
                                 </td>
                                 <td>
-                                    <a class="btn btn-warning" href="/edit/{{ $plantita->transno }}">Edit</a>
+                                    <a class="btn btn-success" href="/edit/{{ $plantita->transno }}">Edit</a>
                                 </td>
                             </tr>
                         @endforeach

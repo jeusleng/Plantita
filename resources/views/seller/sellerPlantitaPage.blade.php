@@ -227,7 +227,7 @@ if(session('regno') == null){
                                 <td>{{ $plantita->itemprice }}</td>
                                 <td>
                                     <form action="{{ route('sellerMyPlantita.destroy', $plantita->itemno) }}" method="post">
-                                        <a class="btn btn-warning" href="/edit/plantita/{{ $plantita->itemno }}">
+                                        <a class="btn btn-success" href="/edit/plantita/{{ $plantita->itemno }}">
                                             <i class="fas fa-edit"></i>
                                         </a>
                                         <a class="btn btn-danger" href="/delete/plantita/{{ $plantita->itemno }}"

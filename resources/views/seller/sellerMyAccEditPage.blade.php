@@ -164,7 +164,7 @@ if (session('regno') == null) {
                             Credentials</button>
                     </form>
                     <br>
-                    <a href="javascript:void(0);" onclick="history.back();" class="btn btn-danger"
+                    <a href="javascript:void(0);" onclick="history.back();" class="btn btn-secondary"
                         style="width: 100%; border-color: transparent;">Cancel</a>
                     @endforeach
                 </div>
